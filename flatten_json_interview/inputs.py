@@ -32,7 +32,9 @@ bread_production = [
 			   "plain rye": 22},
 		  "SOURDOUGH": {"cheddar black pepper": 15.0,
 		                "cranberry walnut": 10,
-		                "classic": "    ",},
+		                "classic": {"boule": 12,
+		                            "batard": None,}
+		                }
 		  },
 	 "yeasted": {"white": 10,
 	             "Honey Whole Wheat Hamburger Buns": 80},
@@ -42,14 +44,16 @@ bread_production = [
 	{"production_date": "2022-03-02 12:33:00",
 	 "sourdough":
 		 {"baguettes":
-			  {"sourdough": 15,
-			   "sourdough demi": 25, },
+			  {"sourdough": 14,
+			   "sourdough demi": 24,},
 		  "rye":
 			  {"caraway rye": 33.0,
 			   "plain rye": 22},
 		  "SOURDOUGH": {"cheddar black pepper": 15.0,
 		                "cranberry walnut": 10,
-		                "classic": "    ", },
+		                "classic": {"boule": 12,
+		                            "batard": None, }
+		                },
 		  },
 	 "yeasted": {"white": 10,
 	             "Honey Whole Wheat Hamburger Buns": None},

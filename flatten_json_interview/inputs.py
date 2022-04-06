@@ -26,26 +26,27 @@ bread_production = [
 	 "sourdough":
 		 {"baguettes":
 			  {"sourdough": 15,
-			   "sourdough demi": 25,},
+			   "sourdough demi": 25, },
 		  "rye":
 			  {"caraway rye": 33.0,
 			   "plain rye": 22},
 		  "SOURDOUGH": {"cheddar black pepper": 15.0,
 		                "cranberry walnut": 10,
 		                "classic": {"boule": 12,
-		                            "batard": None,}
+		                            "batard": None, }
 		                }
 		  },
 	 "yeasted": {"white": 10,
-	             "Honey Whole Wheat Hamburger Buns": 80},
-	            "baguettes": {"french": 20,
-	                          "french demi": 30},
+	             "Honey Whole Wheat Hamburger Buns": 80,
+	             "baguettes": {"french": 20,
+	                           "french demi": 30},
+	             },
 	 },
 	{"production_date": "2022-03-02 12:33:00",
 	 "sourdough":
 		 {"baguettes":
 			  {"sourdough": 14,
-			   "sourdough demi": 24,},
+			   "sourdough demi": 24, },
 		  "rye":
 			  {"caraway rye": 33.0,
 			   "plain rye": 22},
@@ -56,8 +57,9 @@ bread_production = [
 		                },
 		  },
 	 "yeasted": {"white": 10,
-	             "Honey Whole Wheat Hamburger Buns": None},
-	 "baguettes": {"french": None,
-	               "french demi": "    "},
+	             "Honey Whole Wheat Hamburger Buns": None,
+	             "baguettes": {"french": None,
+	                           "french demi": "    "},
+	             },
 	 },
 ]

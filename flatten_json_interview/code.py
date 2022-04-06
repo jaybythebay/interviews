@@ -7,12 +7,16 @@ pp = pprint.PrettyPrinter(indent=4)
 
 for day in bread_production:
 	type(day)
-	x = transforms.flatten_json(day, ['sourdough', 'yeasted'], 3 )
+	x = transforms.flatten_json(day, ['sourdough', 'yeasted'], 1 )
 	pp.pprint(x)
 
 # for day in sweets_production:
 # 	pp.pprint(day)
 # 	type(day)
+
+
+
+
 
 
 
